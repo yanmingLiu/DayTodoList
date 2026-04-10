@@ -214,6 +214,46 @@ flutter analyze
 flutter test
 ```
 
+## Deploy to GitHub Pages | 部署到 GitHub Pages
+
+This repo includes a GitHub Actions workflow at `.github/workflows/deploy-web.yml`.
+
+Push to the `main` branch, then enable GitHub Pages in the repository settings:
+
+1. Open `Settings -> Pages`
+2. Set `Source` to `GitHub Actions`
+3. Wait for the workflow to finish
+
+The site will then be published at:
+
+```text
+https://yanmingLiu.github.io/DayTodoList/
+```
+
+Important limitation:
+
+- The current web app stores data in the browser's local database.
+- Your entries persist on the same browser and device, but they do not sync automatically across different devices or browsers.
+
+仓库已内置 GitHub Actions 工作流 `.github/workflows/deploy-web.yml`。
+
+推送到 `main` 分支后，在仓库设置中启用 GitHub Pages：
+
+1. 打开 `Settings -> Pages`
+2. 将 `Source` 设为 `GitHub Actions`
+3. 等待工作流执行完成
+
+发布地址将是：
+
+```text
+https://yanmingLiu.github.io/DayTodoList/
+```
+
+重要限制：
+
+- 当前 Web 版数据保存在浏览器本地数据库中。
+- 同一台设备、同一个浏览器里记录会保留，但不会自动同步到其他设备或其他浏览器。
+
 ## Current Status | 当前状态
 
 This repository already includes:
