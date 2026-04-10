@@ -1,0 +1,104 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Dev Journal",
+  "appSubtitle": "聚焦今天。",
+  "savedLog": "已保存日志",
+  "deletedLog": "已删除日志",
+  "updatedLog": "已更新日志",
+  "noLogsToExport": "当前没有可导出的日志",
+  "exportLogs": "导出",
+  "exportCurrentView": "当前视图",
+  "exportMarkdown": "导出 Markdown",
+  "exportJson": "导出 JSON",
+  "cancel": "取消",
+  "filterLogs": "筛选",
+  "searchKeyword": "搜索",
+  "tags": "标签",
+  "allTags": "全部标签",
+  "done": "完成",
+  "deleteLog": "删除",
+  "deleteLogConfirm": "删除后将无法恢复，确认继续吗？",
+  "delete": "删除",
+  "confirmDelete": "确认删除",
+  "editLog": "编辑",
+  "editLogHint": "更新内容和标签",
+  "dateLabel": "日期",
+  "save": "保存",
+  "saveChanges": "保存",
+  "today": "今天",
+  "calendar": "日历",
+  "all": "全部",
+  "calendarTitle": "日历",
+  "viewDayLogs": "打开",
+  "quickRecord": "快速添加",
+  "quickRecordHintCompact": "完成了什么？可加 #标签",
+  "quickRecordHintFull": "输入一行记录，可选 #标签。",
+  "quickRecordSupportTags": "一行记录，支持标签。",
+  "filterTooltip": "筛选",
+  "exportTooltip": "导出",
+  "languageTooltip": "语言",
+  "languageCode": "中",
+  "totalCount": "总数",
+  "resultCount": "结果",
+  "selectedDayCount": "当天",
+  "selectedDateLabel": "日期 {date}",
+  "@selectedDateLabel": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "entriesTitleToday": "今天",
+  "entriesTitleCalendar": "所选日期",
+  "entriesTitleAll": "全部日志",
+  "entriesCount": "{count} 条",
+  "@entriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyViewLogs": "这里还没有记录。",
+  "filterAll": "筛选 · 全部",
+  "filterResults": "筛选 · {count} 条",
+  "@filterResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadStarted": "开始下载 {fileName}",
+  "@downloadStarted": {
+    "placeholders": {
+      "fileName": {}
+    }
+  },
+  "exportedToPath": "已导出到 {path}",
+  "@exportedToPath": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "exportHeader": "# Dev Journal Export",
+  "exportedAt": "导出时间: {time}",
+  "@exportedAt": {
+    "placeholders": {
+      "time": {}
+    }
+  },
+  "exportRecordCount": "记录数量: {count}",
+  "@exportRecordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportTags": "标签: {tags}",
+  "@exportTags": {
+    "placeholders": {
+      "tags": {}
+    }
+  }
+}

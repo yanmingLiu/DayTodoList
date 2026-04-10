@@ -1,0 +1,104 @@
+{
+  "@@locale": "en",
+  "appTitle": "Dev Journal",
+  "appSubtitle": "Focus on today.",
+  "savedLog": "Log saved",
+  "deletedLog": "Log deleted",
+  "updatedLog": "Log updated",
+  "noLogsToExport": "There are no logs to export",
+  "exportLogs": "Export",
+  "exportCurrentView": "Current view",
+  "exportMarkdown": "Export Markdown",
+  "exportJson": "Export JSON",
+  "cancel": "Cancel",
+  "filterLogs": "Filter",
+  "searchKeyword": "Search",
+  "tags": "Tags",
+  "allTags": "All tags",
+  "done": "Done",
+  "deleteLog": "Delete",
+  "deleteLogConfirm": "This log cannot be recovered after deletion. Continue?",
+  "delete": "Delete",
+  "confirmDelete": "Delete",
+  "editLog": "Edit",
+  "editLogHint": "Update text and tags",
+  "dateLabel": "Date",
+  "save": "Save",
+  "saveChanges": "Save",
+  "today": "Today",
+  "calendar": "Calendar",
+  "all": "All",
+  "calendarTitle": "Calendar",
+  "viewDayLogs": "Open",
+  "quickRecord": "Quick Add",
+  "quickRecordHintCompact": "What did you finish? #tag",
+  "quickRecordHintFull": "Write one line. Add #tags if needed.",
+  "quickRecordSupportTags": "One line. Tags supported.",
+  "filterTooltip": "Filter",
+  "exportTooltip": "Export",
+  "languageTooltip": "Language",
+  "languageCode": "EN",
+  "totalCount": "Total",
+  "resultCount": "Results",
+  "selectedDayCount": "Day",
+  "selectedDateLabel": "Date {date}",
+  "@selectedDateLabel": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "entriesTitleToday": "Today",
+  "entriesTitleCalendar": "Selected Day",
+  "entriesTitleAll": "All Logs",
+  "entriesCount": "{count} items",
+  "@entriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "emptyViewLogs": "Nothing here yet.",
+  "filterAll": "Filter · All",
+  "filterResults": "Filter · {count} items",
+  "@filterResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadStarted": "Downloading {fileName}",
+  "@downloadStarted": {
+    "placeholders": {
+      "fileName": {}
+    }
+  },
+  "exportedToPath": "Exported to {path}",
+  "@exportedToPath": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "exportHeader": "# Dev Journal Export",
+  "exportedAt": "Exported at: {time}",
+  "@exportedAt": {
+    "placeholders": {
+      "time": {}
+    }
+  },
+  "exportRecordCount": "Record count: {count}",
+  "@exportRecordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportTags": "Tags: {tags}",
+  "@exportTags": {
+    "placeholders": {
+      "tags": {}
+    }
+  }
+}
